@@ -1,5 +1,5 @@
 # story
-
+```
 import cv2
 from ultralytics import YOLO
 from picamera2 import Picamera2
@@ -65,3 +65,4 @@ while True:
 # Cleanup
 cv2.destroyAllWindows()
 picam2.stop()
+```
